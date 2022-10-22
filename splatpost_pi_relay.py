@@ -97,7 +97,7 @@ BTN_LEFT.off()
 
 
 # Load the image file.
-image = PIL.Image.open( IMAGE_PATH )
+image = PIL.Image.open( './images/' + IMAGE_PATH )
 
 start_time = timeit.default_timer()
 
